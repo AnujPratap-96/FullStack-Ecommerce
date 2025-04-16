@@ -1,6 +1,7 @@
 import Slider from "./Slider/HomeSlider"
 import CategorySlider from "./Slider/CategorySlider"
 import FirstSection from "./FirstSection"
+import Products from "./Product"
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Slider/>
       <CategorySlider/>
       <FirstSection/>
+      <Products/>
     </div>
   )
 }
